@@ -40,7 +40,9 @@ sudo docker-compose up -d
 
 > Fix Bug：
 2017年03月15日：优化对SSL证书的支持
+
 2017年03月14日：优化原项目docker-lnmp对typecho的支持
+
 2017年03月14日：优化数据库账户及密码
 
 
