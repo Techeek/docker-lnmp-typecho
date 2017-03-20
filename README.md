@@ -30,9 +30,10 @@ sudo docker-compose up -d
 ```
 注意：部署网站前请先更改Nginx目录下nginx.conf文件
 
+> Bug:
+2017年03月20日：暂时无法使用腾讯云CDN服务，会造成无法登录后台。
+
 > Fix Bug：  
 2017年03月15日：优化对SSL证书的支持  
 2017年03月14日：优化原项目docker-lnmp对typecho的支持  
 2017年03月14日：优化数据库账户及密码
-
-
