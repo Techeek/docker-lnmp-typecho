@@ -17,9 +17,9 @@ sudo git clone https://github.com/Techeek/docker-lnmp-typecho
 ```
 * 2、将项目clone到本地后请安装docker、docker.io、docker-compose,这里我们使用国内的daocloud加速安装，同时我们安装daocloud加速
 ```linux
-sudo curl -sSL https://get.daocloud.io/docker | sh
-sudo curl -L https://get.daocloud.io/docker/compose/releases/download/1.11.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+sudo apt install docker
+sudo apt install docker.io
+sudo apt install docker-compose
 curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f4a8a473.m.daocloud.io
 ```
 
@@ -37,3 +37,4 @@ sudo docker-compose up -d
 2017年03月15日：优化对SSL证书的支持  
 2017年03月14日：优化原项目docker-lnmp对typecho的支持  
 2017年03月14日：优化数据库账户及密码
+2017年08月28日：修复docker卡死无法安装问题
